@@ -1,41 +1,46 @@
-# Kubernetes Homelab
+Phase1
+[x] Prepare nodes
+[x] Install containerd
 
-Production-like Kubernetes environment built for learning and demonstrating DevOps and SRE practices.
+[ ] Install kubeadm
+[ ] Install kubelet
+[ ] Install kubectl
 
-## Stack
+[ ] Initialize control plane
 
-- Kubernetes
-- Docker
-- Traefik
-- PostgreSQL
-- Prometheus
-- Grafana
+[ ] Join worker
 
-## Goals
+[ ] Install Calico
 
-- Deploy a containerized application
-- Configure ingress with Traefik
-- Deploy PostgreSQL
-- Set up monitoring with Prometheus and Grafana
-- Practice Kubernetes manifests and troubleshooting
+Phase2
+[ ] Install metrics-server
 
-## Architecture
+[ ] Install Traefik
 
-Internet
-↓
-Traefik
-↓
-Demo Application
-↓
-PostgreSQL
+[ ] Deploy demo app
 
-Prometheus
-↓
-Grafana
+[ ] Install cert-manager
 
-## Future improvements
+Phase3
+[ ] Install Prometheus
 
-- Helm
-- GitLab CI/CD
-- Ansible
-- Backup automation
+[ ] Install Grafana
+
+[ ] Configure dashboards
+
+Phase4
+[ ] PostgreSQL
+
+[ ] Keycloak
+
+[ ] Demo applications
+
+Phase5
+[ ] GitLab Runner
+
+[ ] Build pipeline
+
+[ ] Deploy pipeline
+
+Phase6
+[ ] ArgoCD
