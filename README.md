@@ -1,4 +1,5 @@
 Phase1
+
 [x] Prepare nodes
 [x] Install containerd
 
@@ -13,6 +14,7 @@ Phase1
 [ ] Install Calico
 
 Phase2
+
 [ ] Install metrics-server
 
 [ ] Install Traefik
@@ -22,6 +24,7 @@ Phase2
 [ ] Install cert-manager
 
 Phase3
+
 [ ] Install Prometheus
 
 [ ] Install Grafana
@@ -29,6 +32,7 @@ Phase3
 [ ] Configure dashboards
 
 Phase4
+
 [ ] PostgreSQL
 
 [ ] Keycloak
@@ -36,6 +40,7 @@ Phase4
 [ ] Demo applications
 
 Phase5
+
 [ ] GitLab Runner
 
 [ ] Build pipeline
@@ -43,4 +48,5 @@ Phase5
 [ ] Deploy pipeline
 
 Phase6
+
 [ ] ArgoCD
